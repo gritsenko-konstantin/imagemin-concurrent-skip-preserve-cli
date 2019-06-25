@@ -1,0 +1,52 @@
+{
+	"name": "imagemin-concurrent-skip-preserve-cli",
+	"version": "1.0.0",
+	"description": "Minify images",
+	"license": "MIT",
+	"repository": "https://github.com/gritsenko-konstantin/imagemin-cli.git",
+	"author": {
+	  "name": "Gritsenko Konstantin",
+	  "email": "gritsenko.konstantin@gmail.com",
+	  "url": "github.com/gritsenko-konstantin"
+	},
+	"bin": {
+		"imagemin-concurrent-skip-preserve": "cli.js"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"concurrent",
+		"skip",
+		"preserve",
+		"cli",
+		"cli-app",
+		"compress",
+		"imagemin",
+		"gif",
+		"image",
+		"jpeg",
+		"jpg",
+		"minify",
+		"png",
+		"svg"
+	],
+	"dependencies": {
+		"imagemin-concurrent-skip-preserve": "^6.1.5",
+		"imagemin-mozjpeg": "^8.0.0",
+		"imagemin-pngquant": "^8.0.0",
+		"meow": "^5.0.0",
+		"ora": "^3.0.0"
+	},
+	"xo": {
+		"rules": {
+			"node/process-exit-as-throw": 2
+		}
+	}
+}
