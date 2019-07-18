@@ -88,6 +88,11 @@ const main = async function (input, opts) {
     return;
   }
 
+  if (!cli.flags.outDir && !cli.flags.baseDir) {
+    cli.flags.outDir = cli.input;
+    cli.flags.baseDir = cli.input;
+  }
+
   if (!cli.flags.outDir) {
     console.error('You should specify output directory');
     return;
