@@ -1,13 +1,13 @@
 {
 	"name": "imagemin-concurrent-skip-preserve-cli",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Minify images",
 	"license": "MIT",
 	"repository": "https://github.com/gritsenko-konstantin/imagemin-concurrent-skip-preserve-cli",
 	"author": {
-	  "name": "Gritsenko Konstantin",
-	  "email": "gritsenko.konstantin@gmail.com",
-	  "url": "github.com/gritsenko-konstantin"
+		"name": "Gritsenko Konstantin",
+		"email": "gritsenko.konstantin@gmail.com",
+		"url": "github.com/gritsenko-konstantin"
 	},
 	"bin": {
 		"imagemin-concurrent-skip-preserve": "cli.js"
